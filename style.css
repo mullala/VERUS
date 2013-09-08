@@ -1,0 +1,307 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*html, body, body div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr,
+address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i,
+dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr,
+th, td, article, aside, figure, footer, header, hgroup, menu, nav, section, time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+	background: transparent;
+}*/
+
+/* HTML5 display-role reset for older browsers */
+article, aside, figure, footer, header, hgroup, nav, section {display: block;}
+
+/*img, object, embed {max-width: 100%;}*/
+ul {list-style: none;}
+blockquote, q {quotes: none;}
+blockquote:before, blockquote:after, q:before, q:after {content: ''; content: none;}
+a {margin: 0; padding: 0; font-size: 100%; vertical-align: baseline;}
+del {text-decoration: line-through;}
+abbr[title], dfn[title] {border-bottom: 1px dotted #000; cursor: help;}
+
+body {line-height:1;}
+
+/* tables still need cellspacing="0" in the markup */
+table {border-collapse: collapse; border-spacing: 0;}
+th {font-weight: bold; vertical-align: bottom;}
+td {font-weight: normal; vertical-align: top;}
+hr {display: block; height: 1px; border: 0; border-top: 1px solid #ccc; margin: 1em 0; padding: 0;}
+
+/* Form Elements */
+input, select {vertical-align: middle;}
+input[type="radio"] {vertical-align: text-bottom;}
+input[type="checkbox"] {vertical-align: bottom;}
+.ie6 input {vertical-align: text-bottom;}
+select, input, textarea {font: 99% sans-serif;}
+
+a:hover, a:active {outline: none;}
+small {font-size: 85%;}
+strong, th {font-weight: bold;}
+td, td img {vertical-align: top;} 
+
+sub, sup {font-size: 75%; line-height: 0; position: relative;}
+sup {top: -0.5em;}
+sub {bottom: -0.25em;}
+
+/* standardize any monospaced elements */
+pre, code, kbd, samp {font-family: monospace, sans-serif;}
+
+/* hand cursor on clickable elements */
+.clickable, input[type=button], input[type=submit], button {cursor: pointer;}
+label {cursor: text;}
+
+/* Webkit browsers add a 2px margin outside the chrome of form elements */
+button, input, select, textarea {margin: 0;}
+
+/* make buttons play nice in IE */
+button {width: auto; overflow: visible;}
+
+a, img a, img, a img {border:0;	outline:0; text-decoration:none;}
+
+/* FLOAT-elements */
+.fltleft {float:left;}
+.fltright {float:right;}
+
+/* let's clear some floats */
+.clearfix:before, .clearfix:after { content: "\0020"; display: block; height: 0; overflow: hidden; }  
+.clearfix:after { clear: both; }
+
+/* only to clear floats - to be used with any class as addition */
+.clear { clear: both; }
+	
+/* clear float with blank <div>or <br>*/
+.clrflt { clear:both; line-height:1px; font-size:1px; overflow: hidden; }
+
+/* MAIN */
+body {
+	background:#FFF;
+	font-family:Arial,Helvetica,sans-serif;
+	font-size:12px;
+	font-weight:normal;
+	color:#000000;
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+	}
+	
+/*========== Header ==========*/
+
+#header_outer
+{
+	background:url(splash_images/blue_bg.jpg) repeat-x left top;
+}
+
+#header_wrap
+{
+	background:url(splash_images/header_img.jpg) no-repeat 326px top;
+	width:770px;
+	height:326px;
+	margin:0px auto;
+	position:relative;
+}
+
+#header_wrap h1
+{
+	font-family:'Century Gothic', Arial, Helvetica, sans-serif;
+	width:auto;
+	display:block;
+	padding:0px;
+	margin:0px;
+	font-size:19px;
+	color:#FFF;
+	font-weight:normal;
+	position:absolute;
+	right:-30px;
+	bottom:25px;
+}
+
+/*========== Logo Area ==========*/
+
+#logo_area
+{
+	background:url(splash_images/white_bg.jpg) repeat-x left top;
+	height:184px;
+}
+
+#logo_area_wrap
+{
+	width:770px;
+	height:184px;
+	margin:0px auto;
+	position:relative;
+}
+
+.staffing_solutions_logo
+{
+	width:299px;
+	height:185px;
+	position:absolute;
+	left:61px;
+	top:22px;
+}
+
+.staffing_solutions_logo a
+{
+	background:url(splash_images/logo1.png) no-repeat left top;
+	width:299px;
+	height:185px;
+	display:block;
+}
+
+.staffing_solutions_logo a:hover
+{
+	background-position:left -185px;
+}
+
+.consulting_solutions_logo
+{
+	width:291px;
+	height:160px;
+	position:absolute;
+	right:57px;
+	top:47px;
+}
+
+.consulting_solutions_logo a
+{
+	background:url(splash_images/logo2.png) no-repeat left top;
+	width:291px;
+	height:160px;
+	display:block;
+}
+
+.consulting_solutions_logo a:hover
+{
+	background-position:left -160px;
+}
+
+/*========== Content Area ==========*/
+
+#content_outer
+{
+	background:#FFF url(splash_images/content_bg.jpg) repeat-x left top;
+}
+
+#content_wrap
+{
+	width:770px;
+	margin:0px auto;
+	padding:65px 0;
+}
+
+.left_panel
+{
+	width:430px;
+	font-size:12px;
+	color:#585858;
+}
+
+.left_panel h2
+{
+	font-size:16px;
+	font-weight:bold;
+	color:#354f74;
+}
+
+.left_panel p
+{
+	line-height:17px;
+}
+
+.right_panel
+{
+	width:278px;
+}
+
+.subscribe_area
+{
+	width:278px;
+}
+
+.subscribe_area h3
+{
+
+	font-size:14px;
+	font-weight:bold;
+	color:#354f74;
+}
+
+.subscribe_field
+{
+	background:url(splash_images/search_field.png) no-repeat left top;
+	width:211px;
+	height:19px;
+	border:0px;
+	outline:0px;
+	float:left;
+	padding:8px 10px 6px 15px;
+	font-size:12px;
+	color:#7e7e7e;
+	line-height:19px;
+}
+
+.subscribe_bttn
+{
+	background:url(splash_images/search_bttn.png) no-repeat left top;
+	width:42px;
+	height:33px;
+	border:0px;
+	outline:0px;
+	float:left;
+	cursor:pointer;
+}
+
+.address_area
+{
+	width:278px;
+	font-size:12px;
+	color:#585858;
+	line-height:normal;
+	padding:25px 0 0 0;
+}
+
+.address_area strong
+{
+	color:#585858;
+	display:block;
+}
+
+.address_box
+{
+	width:139px;
+}
+
+.contact
+{
+	background:url(splash_images/mail_icon.png) no-repeat 65px 30px;
+	font-size:12px;
+	color:#354f74;
+	text-align:center;
+	padding:25px 0 0 0;
+}
+
+.contact a
+{
+	color:#354f74;
+	text-decoration:none;
+}
+
+.contact a:hover
+{
+	color:#354f74;
+	text-decoration:underline;
+}
+
+hr {
+	background:none;
+	border: none;
+	}

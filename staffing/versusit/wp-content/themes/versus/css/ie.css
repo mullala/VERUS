@@ -1,0 +1,4 @@
+*+html{overflow:auto;}
+
+#content { behavior:url(js/PIE.htc);  position:relative;}
+#content-page { behavior:url(js/PIE.htc);  position:relative;}

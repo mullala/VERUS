@@ -1,0 +1,139 @@
+/* CSS Document */
+
+@import url("style.css");
+
+@import url("template.css");
+
+@font-face {
+
+    font-family: 'OpenSansBold';
+
+    src: url('opensans-bold.eot');
+
+    src: url('opensans-bold.eot') format('embedded-opentype'),
+
+         url('opensans-bold.woff') format('woff'),
+
+         url('opensans-bold.ttf') format('truetype'),
+
+         url('opensans-bold.svg#OpenSansBold') format('svg');
+
+}
+
+@font-face {
+
+    font-family: 'OpenSansRegular';
+
+    src: url('opensans-regular.eot');
+
+    src: url('opensans-regular.eot') format('embedded-opentype'),
+
+         url('opensans-regular.woff') format('woff'),
+
+         url('opensans-regular.ttf') format('truetype'),
+
+         url('opensans-regular.svg#OpenSansRegular') format('svg');
+
+}
+/*==========================================*/
+
+#faded {
+	width:980px;
+	height:346px;
+	position:relative;
+	overflow:hidden;
+}
+	#faded li {
+		width:100%;
+	}
+	#faded li div {
+		float:left;
+		display:block;
+		position:absolute;
+		right:300;
+		top:0px;
+		width:360px;
+		height:277px;
+	}
+	ul.pagination {
+		list-style:none;
+		padding:0;
+		margin:0;
+		z-index:10;
+		position:absolute;
+		font-size:0; 
+		line-height:0;
+		top:310px;
+		right:35px;
+	}
+	
+	#faded article {
+		padding:5px 15px 0 15px;
+	}
+		#faded article strong {
+			display:block;			
+			font-size:22px;
+			font-family: 'OpenSansRegular';
+			line-height:1.0em;
+			text-transform:uppercase;
+			padding:5px 0 6px 0;
+			color:#fff;
+		}
+		#faded article p {
+			display:block;			
+			font-size:16px;
+			font-weight:normal;
+			padding:10px 0 10px 0px;
+			font-family: 'OpenSansRegular';
+			color:#fff;
+		}
+			#faded article a {
+				
+			}
+				#faded article a:hover {
+					
+				}
+		#faded ul.pagination li {
+			float:left;
+			padding:0 3px 0 0;
+			width:21px;
+		}
+			ul.pagination li a {
+				display:block;
+				width:17px;
+				height:16px;
+				padding:5px 0 0 4px;
+				background:url(../images/faded-li-bg.png) left top no-repeat;
+				font-size:0;
+				line-height:0;
+				text-decoration:none;
+				color:#fff;
+			}
+				* html ul.pagination li a {
+					background:url(../images/faded-li-bg-ie.gif) left top no-repeat;
+				}
+			ul.pagination li.current a {
+				background:url(../images/faded-li-bg-active.png) left top no-repeat; 
+				color:#fff;
+			}
+				* html ul.pagination li.current a {
+					background:url(../images/faded-li-bg-active-ie.gif) left top no-repeat;
+				}
+	a {
+		outline:0;
+		border:0; 
+	}
+   
+#faded li .slide1 {
+	 margin:0px;
+	 padding:0px;
+	 width:380px;
+	 height:45px;
+	 top:250px;
+	 left:20px;
+	 opacity:0.5;
+	 background:#F00;
+		
+}
+
+

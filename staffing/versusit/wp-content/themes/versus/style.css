@@ -1,0 +1,107 @@
+/*
+
+Theme Name: versus
+
+Theme URI: http://smartframeworkbd.com
+
+Author: Smart Framework
+
+Author URI: http://smartframeworkbd.com
+
+Description: This is a theme developed by Smart Framework team.
+
+Version: 3.5
+
+*/
+
+/* 
+
+-------------------------------------------------------------- */
+
+@import url("css/ddsmoothmenu.css");
+
+@import url("css/layout.css");
+
+@charset "utf-8";
+
+
+
+.buttons{
+
+   font-size:14px; 
+
+   color:#FFF; 
+
+   background-color:#b61f3b; 
+
+   -moz-border-radius:5px; 
+
+   -webkit-border-radius:5px; 
+
+   border-radius:5px; 
+
+   border:none; 
+
+   cursor:pointer; 
+
+   padding-left:20px; 
+
+   padding-right:20px; 
+
+   padding-top:5px; 
+
+   padding-bottom:5px;
+
+}
+
+.buttons:hover {
+
+    background: #b61f3b;
+
+}
+
+.submit1{
+
+	background-color:#CC0033; color:white; float:right; padding:2px; width:90px;
+
+	}
+
+td.inputText{
+
+	border:1px solid #CCC;
+
+
+
+	}
+
+.inputText{
+
+	border:1px solid #CCC;
+
+	padding-left:5px;
+
+	width:300px;
+
+	}
+
+
+
+ol li{
+
+	list-style-type:decimal;
+
+	list-style-position:inside;
+
+}
+
+.contact_table{
+
+	margin-left:20px;
+
+}
+
+.small_banner{
+
+       margin-top:1px;
+
+}
